@@ -11,4 +11,10 @@ def print_hello():
     for line in hello:
         print(line)
 
-print_hello()
+print_hello
+
+print("**    **  ******  **      **      ******")
+print("**    **  **      **      **      **  **")
+print("********  ******  **      **      **  **")
+print("**    **  **      **      **      **  **")
+print("**    **  ******  ******  ******  ******")
