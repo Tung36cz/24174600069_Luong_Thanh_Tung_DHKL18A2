@@ -15,9 +15,12 @@ print("ket thuc chuong trinh")
 
 #Bài 2
 x = float(input("Nhap vao so x: "))
-y= (-x+(x**2+4)**(1/2))/(x**4+1)**(1/7)
-print(f"y: {y:.2f}")
-
+if (x**4+1)**(1/7) != 0:
+    y= (-x+(x**2+4)**(1/2))/(x**4+1)**(1/7)
+    print(f"y: {y:.2f}")
+else:
+    print("Gia tri nhap khong hop le")
+print("Ket thuc chuong trinh")
 #Bài 4
 t  = int(input("Nhap thoi gian su dung bong den (s): "))
 U = 220
