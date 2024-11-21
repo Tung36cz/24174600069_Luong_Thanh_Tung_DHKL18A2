@@ -22,15 +22,12 @@ for hang in range(len(matrix_a)):
 
 print(matrix_a)
 #Tính ma trận nhân ma trận
-# Khai báo ma trận A và B
 ma_tran_A = [[1,2,6],
              [3,4,8],
              [8,0,1]]
-
 ma_tran_B = [[5,6,7],
              [7,8,0],
              [3,9,1]]
-    
 hang_A = len(A)
 cot_A = len(A[0])
 hang_B = len(B)
